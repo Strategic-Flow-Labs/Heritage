@@ -1,6 +1,6 @@
 #! /bin/sh
 
-if [[ "$(uname)" == "Darling" ]]; then
+if [[ "$(uname)" == "Darwin" ]]; then
   echo "Only supported on Linux."
   exit 1
 fi
